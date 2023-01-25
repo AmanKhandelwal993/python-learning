@@ -83,11 +83,11 @@ class vehicle:
         self.mileage = mileage
         print("the Vehicle class is initiated",end='\n\n')      
     
-    def get_vehicle_features(test):
+    def get_vehicle_features(self):
         print('display feature of vehicle')
-        print(f"speed : {test.speed}")
-        print(f"type : {test.type}")
-        print(f"mileage : {test.mileage}")
+        print(f"speed : {self.speed}")
+        print(f"type : {self.type}")
+        print(f"mileage : {self.mileage}")
 
 
 obj1 = vehicle('car','40','50')
